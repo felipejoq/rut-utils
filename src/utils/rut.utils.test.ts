@@ -13,7 +13,7 @@ describe('isValidRut', () => {
 });
 
 describe('formatRut', () => {
-    it('should return the given RUT formatted', () => {
+    it('should return the given RUT formatted full', () => {
         const rut = '111111111';
         const formattedRut = '11.111.111-1';
         expect(formatRut(rut, {full: true})).toBe(formattedRut);
